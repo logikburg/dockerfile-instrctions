@@ -6,7 +6,7 @@
 $ cd dev-base
 $ docker build -t ${PWD##*/} .
 ```
-![Docker Images](https://bitbucket.org/innovationcentre/docker-files/raw/master/docker_images.png)
+![Docker Images](https://github.com/logikburg/dockrant/blob/b0c073827e16f5a3e353a4beb5b50a42fc4a8862/docker_images.png)
 
 ## Running an instance
 ```
@@ -15,4 +15,4 @@ $ docker build -t ${PWD##*/} .
 # Assuming $GOPATH has been set and using the dev-golang instance:
 $ docker run --rm -it -v ${GOPATH}:/home/godev/gocode dev-golang
 ```
-![Docker Images](https://bitbucket.org/innovationcentre/docker-files/raw/master/docker_running.png)
+![Docker Images](https://github.com/logikburg/dockrant/blob/b0c073827e16f5a3e353a4beb5b50a42fc4a8862/docker_running.png)
